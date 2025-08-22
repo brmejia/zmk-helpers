@@ -1,11 +1,11 @@
 /*                                      Redox KEY MATRIX / LAYOUT MAPPING
 
           ╭────────────────────────────╮           ╭────────────────────────────╮
-          │  0   1   2   3   4   5     │           │      8   9  10  11  12  13 │
-          │ 14  15  16  17  18  19   6 │           │  7  22  23  24  25  26  27 │
-          │ 28  29  30  31  32  33  20 │           │ 21  36  37  38  39  40  41 │
-          │ 42  43  44  45  46  47 ╭────────╮ ╭────────╮ 50  51  52  53  54  55 │
-          │ 56  57  58  59    ╭────╯ 34  48 │ │ 49  35 ╰────╮    66  67  68  69 │
+          │  0   1   2   3   4   5     │           │      6   7   8   9  10  11 │
+          │ 12  13  14  15  16  17  18 │           │ 19  20  21  22  23  24  25 │
+          │ 26  27  28  29  30  31  32 │           │ 33  34  35  36  37  38  39 │
+          │ 40  41  42  43  44  45 ╭────────╮ ╭────────╮ 50  51  52  53  54  55 │
+          │ 56  57  58  59    ╭────╯ 46  47 │ │ 48  49 ╰────╮    66  67  68  69 │
           ╰───────────────────│  60  61  62 │ │ 63  64  65  │───────────────────╯
                               ╰─────────────╯ ╰─────────────╯
 
@@ -21,58 +21,58 @@
 #pragma once
 
 
-#define LN1  5  // left-number row
-#define LN2  4
-#define LN3  3
-#define LN4  2
+#define LN6  0  // left-number row
 #define LN5  1
-#define LN6  0
+#define LN4  2
+#define LN3  3
+#define LN2  4
+#define LN1  5
 
-#define RN1  8   // right-number row
-#define RN2  9
-#define RN3 10
-#define RN4 11
-#define RN5 12
-#define RN6 13
+#define RN1 6   // right-number row
+#define RN2 7
+#define RN3 8
+#define RN4 9
+#define RN5 10
+#define RN6 11
 
-#define LT0  6  // left-top row
-#define LT1 19
-#define LT2 18
-#define LT3 17
-#define LT4 16
-#define LT5 15
-#define LT6 14
+#define LT6 12  // left-top row
+#define LT5 13
+#define LT4 14
+#define LT3 15
+#define LT2 16
+#define LT1 17
+#define LT0 18
 
-#define RT0  7  // right-top row
-#define RT1 22
-#define RT2 23
-#define RT3 24
-#define RT4 25
-#define RT5 26
-#define RT6 27
+#define RT0 19  // right-top row
+#define RT1 20
+#define RT2 21
+#define RT3 22
+#define RT4 23
+#define RT5 24
+#define RT6 25
 
-#define LM0 20  // left-middle row
-#define LM1 33
+#define LM6 26  // left-middle row
+#define LM5 27
+#define LM4 28
+#define LM3 29
 #define LM2 32
-#define LM3 31
-#define LM4 30
-#define LM5 29
-#define LM6 28
+#define LM1 31
+#define LM0 32
 
-#define RM0 21  // right-middle row
-#define RM1 36
-#define RM2 37
-#define RM3 38
-#define RM4 39
-#define RM5 40
-#define RM6 41
+#define RM0 33  // right-middle row
+#define RM1 34
+#define RM2 35
+#define RM3 36
+#define RM4 37
+#define RM5 38
+#define RM6 39
 
-#define LB1 47  // left-bottom row
-#define LB2 46
-#define LB3 45
-#define LB4 44
-#define LB5 43
-#define LB6 42
+#define LB6 40  // left-bottom row
+#define LB5 41
+#define LB4 42
+#define LB3 43
+#define LB2 44
+#define LB1 45
 
 #define RB1 50 // right-bottom row
 #define RB2 51
@@ -81,10 +81,10 @@
 #define RB5 54
 #define RB6 55
 
-#define LF3 59  // left floor keys
-#define LF4 58
-#define LF5 57
-#define LF6 56
+#define LF3 56  // left floor keys
+#define LF4 57
+#define LF5 58
+#define LF6 59
 
 #define RF3 66  // right floor keys
 #define RF4 67
@@ -94,12 +94,11 @@
 #define LH0 62  // left thumb keys
 #define LH1 61
 #define LH2 60
-#define LH3 48
-#define LH4 34
+#define LH3 47
+#define LH4 46
 
 #define RH0 63  // right thumb keys
 #define RH1 64
 #define RH2 65
-#define RH3 49
-#define RH4 35
-
+#define RH3 48
+#define RH4 49
